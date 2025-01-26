@@ -1,0 +1,515 @@
+{
+  "@context": "https://readium.org/webpub-manifest/context.jsonld",
+  "metadata": {
+    "title": "English Language GCSE for AQA: Student Book",
+    "language": "en",
+    "identifier": "9781107453005",
+    "conformsTo": "https://readium.org/webpub-manifest/profiles/epub",
+    "author": ["Lindsay McNab", "Imelda Pilgrim", "Marian Slee"]
+  },
+  "resources": [
+    { "href": "EPUB/toc.ncx", "type": "application/x-dtbncx+xml", "id": "toc" },
+    {
+      "href": "EPUB/Text/nav.xhtml",
+      "type": "application/xhtml+xml",
+      "id": "toc1",
+      "rel": "contents"
+    },
+    {
+      "href": "EPUB/Styles/main_styles.css",
+      "type": "text/css",
+      "id": "main_styles"
+    },
+    {
+      "href": "EPUB/Styles/other_styles.css",
+      "type": "text/css",
+      "id": "other_styles"
+    },
+    {
+      "href": "EPUB/Fonts/CharisSILB.ttf",
+      "type": "application/vnd.ms-opentype",
+      "id": "CharisSILB.ttf"
+    },
+    {
+      "href": "EPUB/Fonts/CaflischScriptPro-Light.otf",
+      "type": "application/vnd.ms-opentype",
+      "id": "CaflischScriptPro-Light.otf"
+    },
+    {
+      "href": "EPUB/Fonts/CharisSILBI.ttf",
+      "type": "application/vnd.ms-opentype",
+      "id": "CharisSILBI.ttf"
+    },
+    {
+      "href": "EPUB/Fonts/CharisSILI.ttf",
+      "type": "application/vnd.ms-opentype",
+      "id": "CharisSILI.ttf"
+    },
+    {
+      "href": "EPUB/Fonts/CharisSILR.ttf",
+      "type": "application/vnd.ms-opentype",
+      "id": "CharisSILR.ttf"
+    },
+    {
+      "href": "EPUB/Fonts/Andika.ttf",
+      "type": "application/vnd.ms-opentype",
+      "id": "Andika.ttf"
+    },
+    {
+      "href": "EPUB/Fonts/SourceSansPro-Regular.ttf",
+      "type": "application/vnd.ms-opentype",
+      "id": "SourceSansPro-Regular.ttf"
+    },
+    {
+      "href": "EPUB/Fonts/SourceSansPro-Bold.ttf",
+      "type": "application/vnd.ms-opentype",
+      "id": "SourceSansPro-Bold.ttf"
+    },
+    {
+      "href": "EPUB/Fonts/SourceSansPro-Italic.ttf",
+      "type": "application/vnd.ms-opentype",
+      "id": "SourceSansPro-Italic.ttf"
+    },
+    {
+      "href": "EPUB/Fonts/SourceSansPro-BoldItalic.ttf",
+      "type": "application/vnd.ms-opentype",
+      "id": "SourceSansPro-BoldItalic.ttf"
+    },
+    { "href": "EPUB/Images/arrow.png", "type": "image/png", "id": "arrow.png" },
+    {
+      "href": "EPUB/Images/camera.png",
+      "type": "image/png",
+      "id": "camera.png"
+    },
+    {
+      "href": "EPUB/Images/common.png",
+      "type": "image/png",
+      "id": "common.png"
+    },
+    {
+      "href": "EPUB/Images/common1.png",
+      "type": "image/png",
+      "id": "common1.png"
+    },
+    {
+      "href": "EPUB/Images/common3.png",
+      "type": "image/png",
+      "id": "common3.png"
+    },
+    { "href": "EPUB/Images/copy.jpg", "type": "image/jpeg", "id": "copy.jpg" },
+    { "href": "EPUB/Images/icon.png", "type": "image/png", "id": "icon.png" },
+    {
+      "href": "EPUB/Images/img106.jpg",
+      "type": "image/jpeg",
+      "id": "img106.jpg"
+    },
+    {
+      "href": "EPUB/Images/img107.jpg",
+      "type": "image/jpeg",
+      "id": "img107.jpg"
+    },
+    {
+      "href": "EPUB/Images/img107a.jpg",
+      "type": "image/jpeg",
+      "id": "img107a.jpg"
+    },
+    {
+      "href": "EPUB/Images/img108.jpg",
+      "type": "image/jpeg",
+      "id": "img108.jpg"
+    },
+    {
+      "href": "EPUB/Images/img109.jpg",
+      "type": "image/jpeg",
+      "id": "img109.jpg"
+    },
+    {
+      "href": "EPUB/Images/img112.jpg",
+      "type": "image/jpeg",
+      "id": "img112.jpg"
+    },
+    {
+      "href": "EPUB/Images/img113.jpg",
+      "type": "image/jpeg",
+      "id": "img113.jpg"
+    },
+    {
+      "href": "EPUB/Images/img114.jpg",
+      "type": "image/jpeg",
+      "id": "img114.jpg"
+    },
+    {
+      "href": "EPUB/Images/img115.jpg",
+      "type": "image/jpeg",
+      "id": "img115.jpg"
+    },
+    {
+      "href": "EPUB/Images/img116.jpg",
+      "type": "image/jpeg",
+      "id": "img116.jpg"
+    },
+    {
+      "href": "EPUB/Images/img117.jpg",
+      "type": "image/jpeg",
+      "id": "img117.jpg"
+    },
+    {
+      "href": "EPUB/Images/img118.jpg",
+      "type": "image/jpeg",
+      "id": "img118.jpg"
+    },
+    {
+      "href": "EPUB/Images/img120.jpg",
+      "type": "image/jpeg",
+      "id": "img120.jpg"
+    },
+    {
+      "href": "EPUB/Images/img121.jpg",
+      "type": "image/jpeg",
+      "id": "img121.jpg"
+    },
+    {
+      "href": "EPUB/Images/img122.jpg",
+      "type": "image/jpeg",
+      "id": "img122.jpg"
+    },
+    {
+      "href": "EPUB/Images/img123.jpg",
+      "type": "image/jpeg",
+      "id": "img123.jpg"
+    },
+    {
+      "href": "EPUB/Images/img127.jpg",
+      "type": "image/jpeg",
+      "id": "img127.jpg"
+    },
+    {
+      "href": "EPUB/Images/img134.jpg",
+      "type": "image/jpeg",
+      "id": "img134.jpg"
+    },
+    {
+      "href": "EPUB/Images/img135.jpg",
+      "type": "image/jpeg",
+      "id": "img135.jpg"
+    },
+    { "href": "EPUB/Images/radic.png", "type": "image/png", "id": "radic.png" },
+    {
+      "href": "EPUB/Images/radic1.png",
+      "type": "image/png",
+      "id": "radic1.png"
+    },
+    { "href": "EPUB/Images/round.png", "type": "image/png", "id": "round.png" },
+    {
+      "href": "EPUB/Images/round5.png",
+      "type": "image/png",
+      "id": "round5.png"
+    },
+    {
+      "href": "EPUB/Images/round6.png",
+      "type": "image/png",
+      "id": "round6.png"
+    },
+    { "href": "EPUB/Images/tick.png", "type": "image/png", "id": "tick.png" },
+    { "href": "EPUB/Images/tick1.png", "type": "image/png", "id": "tick1.png" },
+    { "href": "EPUB/Images/times.png", "type": "image/png", "id": "times.png" },
+    {
+      "href": "EPUB/Images/9781107453005frcvr.jpg",
+      "type": "image/jpeg",
+      "id": "cover-image",
+      "rel": "cover",
+      "width": 250,
+      "height": 330
+    },
+    {
+      "href": "EPUB/video/g-lan-a-high-sb-vid-0005-a-chrisrules.jpg",
+      "type": "image/jpeg",
+      "id": "chrisrules.jpg"
+    },
+    {
+      "href": "EPUB/video/g-lan-a-high-sb-vid-0005-a-chrisrules.mp4",
+      "type": "video/mp4",
+      "id": "chrisrules.mp4"
+    },
+    {
+      "href": "EPUB/video/g-lan-a-high-sb-vid-0037-a-ianwriting.jpg",
+      "type": "image/jpeg",
+      "id": "ianwriting.jpg"
+    },
+    {
+      "href": "EPUB/video/g-lan-a-high-sb-vid-0037-a-ianwriting.mp4",
+      "type": "video/mp4",
+      "id": "ianwriting.mp4"
+    },
+    {
+      "href": "EPUB/video/g-lan-a-high-sb-vid-0038-a-samfeatures.jpg",
+      "type": "image/jpeg",
+      "id": "samfeatures.jpg"
+    },
+    {
+      "href": "EPUB/video/g-lan-a-high-sb-vid-0038-a-samfeatures.mp4",
+      "type": "video/mp4",
+      "id": "samfeatures.mp4"
+    },
+    {
+      "href": "EPUB/video/g-lan-a-high-sb-vid-0039-a-stella_purpose.jpg",
+      "type": "image/jpeg",
+      "id": "stella.jpg"
+    },
+    {
+      "href": "EPUB/video/g-lan-a-high-sb-vid-0039-a-stella_purpose.mp4",
+      "type": "video/mp4",
+      "id": "stella.mp4"
+    },
+    {
+      "href": "EPUB/video/g-lan-a-high-sb-vid-0066-a-benrevise.jpg",
+      "type": "image/jpeg",
+      "id": "benrevise.jpg"
+    },
+    {
+      "href": "EPUB/video/g-lan-a-high-sb-vid-0066-a-benrevise.mp4",
+      "type": "video/mp4",
+      "id": "benrevise.mp4"
+    },
+    {
+      "href": "EPUB/video/g-lan-a-high-sb-vid-0046-a-samstandard.jpg",
+      "type": "image/jpeg",
+      "id": "samstandard.jpg"
+    },
+    {
+      "href": "EPUB/video/g-lan-a-high-sb-vid-0046-a-samstandard.mp4",
+      "type": "video/mp4",
+      "id": "samstandard.mp4"
+    },
+    {
+      "href": "EPUB/video/g-lan-a-high-sb-vid-0047-a-stellatone.jpg",
+      "type": "image/jpeg",
+      "id": "stellatone.jpg"
+    },
+    {
+      "href": "EPUB/video/g-lan-a-high-sb-vid-0047-a-stellatone.mp4",
+      "type": "video/mp4",
+      "id": "stellatone.mp4"
+    },
+    {
+      "href": "EPUB/video/g-lan-a-high-sb-vid-0008-a-stellapersp.jpg",
+      "type": "image/jpeg",
+      "id": "stellapersp.jpg"
+    },
+    {
+      "href": "EPUB/video/g-lan-a-high-sb-vid-0008-a-stellapersp.mp4",
+      "type": "video/mp4",
+      "id": "stellapersp.mp4"
+    }
+  ],
+  "readingOrder": [
+    {
+      "href": "EPUB/Text/cover.xhtml",
+      "type": "application/xhtml+xml",
+      "id": "cover"
+    },
+    {
+      "href": "EPUB/Text/Ch16sec1.xhtml",
+      "type": "application/xhtml+xml",
+      "id": "Ch16sec1"
+    },
+    {
+      "href": "EPUB/Text/Ch16sec2.xhtml",
+      "type": "application/xhtml+xml",
+      "id": "Ch16sec2"
+    },
+    {
+      "href": "EPUB/Text/Ch16sec3.xhtml",
+      "type": "application/xhtml+xml",
+      "id": "Ch16sec3"
+    },
+    {
+      "href": "EPUB/Text/Ch16sec4.xhtml",
+      "type": "application/xhtml+xml",
+      "id": "Ch16sec4"
+    },
+    {
+      "href": "EPUB/Text/Realia_page133-001.xhtml",
+      "type": "application/xhtml+xml",
+      "id": "Realia_page133-001"
+    },
+    {
+      "href": "EPUB/Text/Ch16sec5.xhtml",
+      "type": "application/xhtml+xml",
+      "id": "Ch16sec5"
+    },
+    {
+      "href": "EPUB/Text/Realia_page134-001.xhtml",
+      "type": "application/xhtml+xml",
+      "id": "Realia_page134-001"
+    },
+    {
+      "href": "EPUB/Text/Realia_page134-002.xhtml",
+      "type": "application/xhtml+xml",
+      "id": "Realia_page134-002"
+    },
+    {
+      "href": "EPUB/Text/Realia_page134-003.xhtml",
+      "type": "application/xhtml+xml",
+      "id": "Realia_page134-003"
+    },
+    {
+      "href": "EPUB/Text/Realia_page135-001.xhtml",
+      "type": "application/xhtml+xml",
+      "id": "Realia_page135-001"
+    },
+    {
+      "href": "EPUB/Text/Ch16sec6.xhtml",
+      "type": "application/xhtml+xml",
+      "id": "Ch16sec6"
+    },
+    {
+      "href": "EPUB/Text/Ch16sec7.xhtml",
+      "type": "application/xhtml+xml",
+      "id": "Ch16sec7"
+    },
+    {
+      "href": "EPUB/Text/Ch16sec8.xhtml",
+      "type": "application/xhtml+xml",
+      "id": "Ch16sec8"
+    },
+    {
+      "href": "EPUB/Text/Ch19sec1.xhtml",
+      "type": "application/xhtml+xml",
+      "id": "Ch19sec1"
+    },
+    {
+      "href": "EPUB/Text/Ch19sec2.xhtml",
+      "type": "application/xhtml+xml",
+      "id": "Ch19sec2"
+    },
+    {
+      "href": "EPUB/Text/Realia_page151-001.xhtml",
+      "type": "application/xhtml+xml",
+      "id": "Realia_page151-001"
+    },
+    {
+      "href": "EPUB/Text/jenny.xhtml",
+      "type": "application/xhtml+xml",
+      "id": "jenny"
+    },
+    {
+      "href": "EPUB/Text/Ch19sec3.xhtml",
+      "type": "application/xhtml+xml",
+      "id": "Ch19sec3"
+    },
+    {
+      "href": "EPUB/Text/Ch19sec4.xhtml",
+      "type": "application/xhtml+xml",
+      "id": "Ch19sec4"
+    },
+    {
+      "href": "EPUB/Text/Ch19sec5.xhtml",
+      "type": "application/xhtml+xml",
+      "id": "Ch19sec5"
+    },
+    {
+      "href": "EPUB/Text/Realia_page154-001.xhtml",
+      "type": "application/xhtml+xml",
+      "id": "Realia_page154-001"
+    },
+    {
+      "href": "EPUB/Text/Realia_page154-002.xhtml",
+      "type": "application/xhtml+xml",
+      "id": "Realia_page154-002"
+    },
+    {
+      "href": "EPUB/Text/tone.xhtml",
+      "type": "application/xhtml+xml",
+      "id": "tone"
+    },
+    {
+      "href": "EPUB/Text/Ch19sec6.xhtml",
+      "type": "application/xhtml+xml",
+      "id": "Ch19sec6"
+    },
+    {
+      "href": "EPUB/Text/Ch19sec7.xhtml",
+      "type": "application/xhtml+xml",
+      "id": "Ch19sec7"
+    },
+    {
+      "href": "EPUB/Text/Ch19sec8.xhtml",
+      "type": "application/xhtml+xml",
+      "id": "Ch19sec8"
+    },
+    {
+      "href": "EPUB/Text/Copyright.xhtml",
+      "type": "application/xhtml+xml",
+      "id": "Copyright"
+    },
+    {
+      "href": "EPUB/Text/Acknowledgements.xhtml",
+      "type": "application/xhtml+xml",
+      "id": "Acknowledgements"
+    }
+  ],
+  "toc": [
+    {
+      "title": "WRITING Unit 16 Use sentence structures for effect",
+      "href": "EPUB/Text/Ch16sec1.xhtml",
+      "children": [
+        { "title": "Use your skills", "href": "EPUB/Text/Ch16sec1.xhtml#s70" },
+        {
+          "title": "Choose the tense for your writing",
+          "href": "EPUB/Text/Ch16sec2.xhtml#s71"
+        },
+        {
+          "title": "Write for purpose and audience",
+          "href": "EPUB/Text/Ch16sec3.xhtml#s72"
+        },
+        {
+          "title": "Understand sentence functions",
+          "href": "EPUB/Text/Ch16sec4.xhtml#s73"
+        },
+        {
+          "title": "Vary sentence structures",
+          "href": "EPUB/Text/Ch16sec5.xhtml#s74"
+        },
+        {
+          "title": "Use fragments for effect",
+          "href": "EPUB/Text/Ch16sec6.xhtml#s75"
+        },
+        { "title": "Progress punctuation", "href": "EPUB/Text/Ch16sec7.xhtml" },
+        { "title": "Assess your progress", "href": "EPUB/Text/Ch16sec8.xhtml" }
+      ]
+    },
+    {
+      "title": "Unit 19 Create tone to influence your readers",
+      "href": "EPUB/Text/Ch19sec1.xhtml#ch19",
+      "children": [
+        { "title": "Use your skills", "href": "EPUB/Text/Ch19sec1.xhtml#s88" },
+        {
+          "title": "Use the informal and formal register",
+          "href": "EPUB/Text/Ch19sec2.xhtml#s89"
+        },
+        {
+          "title": "The active and passive voices",
+          "href": "EPUB/Text/Ch19sec3.xhtml#s90"
+        },
+        {
+          "title": "Use the passive voice",
+          "href": "EPUB/Text/Ch19sec4.xhtml#s91"
+        },
+        { "title": "Create tone", "href": "EPUB/Text/Ch19sec5.xhtml#s92" },
+        {
+          "title": "Use tone to manipulate your reader",
+          "href": "EPUB/Text/Ch19sec6.xhtml#s93"
+        },
+        {
+          "title": "Progress punctuation",
+          "href": "EPUB/Text/Ch19sec7.xhtml#s94"
+        },
+        { "title": "Assess your progress", "href": "EPUB/Text/Ch19sec8.xhtml" }
+      ]
+    },
+    { "title": "Imprint page", "href": "EPUB/Text/Copyright.xhtml" },
+    { "title": "Acknowledgements", "href": "EPUB/Text/Acknowledgements.xhtml" }
+  ],
+  "links": []
+}
