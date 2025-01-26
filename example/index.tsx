@@ -333,7 +333,7 @@ const HomePage = () => {
     setValue(event.target.value);
   return (
     <Box m={2}>
-      <Heading as="h1">NYPL Web Reader</Heading>
+      <Heading as="h1">Masterlingo Reader</Heading>
       <Heading as="h2" fontSize={2} mt={3}>
         Generic Examples
       </Heading>
